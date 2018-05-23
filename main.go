@@ -7,7 +7,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	title := "Jenkins X golang http example YAMATO"
+	title := "Jenkins X golang http example YAMATO 2"
 
 	from := ""
 	if r.URL != nil {
